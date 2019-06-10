@@ -12,10 +12,10 @@
           v-for="article in articles"
           class = "row"
         >
-        <div class="col">
-          <h1 v-html="article.title.rendered"
+        <div class="col mx-4">
+          <h1 class="text-center" v-html="article.title.rendered"
           ></h1>
-          <div class="col">
+          <div class="col mx-4">
             <div
               class="row"
               v-html="article.content.rendered"></div>
