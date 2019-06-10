@@ -28,6 +28,12 @@
                     <p>Reload Page</p>
                 </a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link btn btn-primary"
+                   href="http://progressandfortune.com/blavity-wp-yest/wp-admin/">
+                    <p>Login To Post Articles</p>
+                </a>
+            </li>
 
         </template>
     </navbar>
