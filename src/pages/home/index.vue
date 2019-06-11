@@ -1,4 +1,22 @@
 <template>
+  <div class="wrapper blog-posts">
+      <div class="page-header page-header-small">
+          <parallax class="page-header-image" style="background-image: url('img/bg44.jpg') ;">
+          </parallax>
+          <div class="content-center">
+              <div class="row">
+                  <div class="col-md-8 ml-auto mr-auto text-center">
+                      <h2 class="title">BLAVITY A CREATIVE COMMUNITY FOR BLACK MILLENNIALS</h2>
+                      <a href="#button" class="btn btn-primary btn-round  btn-icon">
+                          <i class="fab fa-twitter"></i>
+                      </a>
+                      <a href="#button" class="btn btn-primary btn-round  btn-icon">
+                          <i class="fab fa-instagram"></i>
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </div>
     <div class="wrapper starter-page d-flex justify-content-center align-items-center">
       <div
         v-if="! hasArticles"
@@ -25,6 +43,7 @@
         </div>
       </div>
     </div>
+  </div>
 </template>
 <script>
 import axios from 'axios'
