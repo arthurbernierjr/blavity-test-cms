@@ -14,7 +14,7 @@
     "axios": "^0.19.0",
     "bootstrap": "^4.2.1",
     "element-ui": "^2.5.4",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "nouislider": "^11.1.0",
     "register-service-worker": "^1.0.0",
     "vue": "^2.6.4",
